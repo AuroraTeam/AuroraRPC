@@ -1,0 +1,6 @@
+.editorconfig
+.eslintrc.js
+tsconfig.json
+tsup.config.ts
+src
+.prettierrc.json

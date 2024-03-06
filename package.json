@@ -1,0 +1,27 @@
+{
+  "name": "aurora-rpc",
+  "version": "1.0.0",
+  "description": "Monorepository for the AuroraRPC library",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuroraTeam/AuroraRPC.git"
+  },
+  "author": "AuroraTeam",
+  "contributors": [
+    "JoCat (https://github.com/JoCat)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AuroraTeam/AuroraRPC/issues"
+  },
+  "homepage": "https://github.com/AuroraTeam/AuroraRPC#readme",
+  "keywords": [
+    "ws",
+    "rpc",
+    "websocket"
+  ]
+}
