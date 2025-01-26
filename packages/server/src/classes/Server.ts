@@ -60,7 +60,7 @@ export class Server {
 
             try {
                 parsedMessage = JSON.parse(message);
-            } catch (error) {
+            } catch {
                 return ws.sendResponse(
                     new ResponseError(
                         "Parse error",

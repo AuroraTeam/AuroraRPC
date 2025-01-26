@@ -16,7 +16,6 @@ export default class MessageEmitter {
         if (!this.#listeners.has(data.id))
             return console.error("[AuroraRPC] Unhandled request: ", data);
 
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         this.#listeners.get(data.id)?.(data);
         this.#listeners.delete(data.id);
     }

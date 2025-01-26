@@ -15,12 +15,12 @@
         "build": "tsup",
         "prepublishOnly": "npm run build",
         "prettier": "prettier --write src",
-        "lint": "eslint --ext .ts src",
-        "lint:fix": "npm run lint -- --fix"
+        "lint": "eslint src",
+        "lint:fix": "eslint src --fix"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/AuroraTeam/AuroraRPC-Server.git",
+        "url": "git+https://github.com/AuroraTeam/AuroraRPC.git",
         "directory": "packages/server"
     },
     "author": "AuroraTeam",
@@ -29,9 +29,9 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/AuroraTeam/AuroraRPC-Server/issues"
+        "url": "https://github.com/AuroraTeam/AuroraRPC/issues"
     },
-    "homepage": "https://github.com/AuroraTeam/AuroraRPC-Server#readme",
+    "homepage": "https://rpc.aurora-team.ru/",
     "keywords": [
         "ws",
         "rpc",
@@ -41,18 +41,19 @@
         "ws": "^8.8.1"
     },
     "devDependencies": {
-        "@tsconfig/node20": "^20.1.2",
-        "@types/node": "^20.11.25",
+        "@eslint/js": "^9.19.0",
+        "@tsconfig/node22": "^22.0.0",
+        "@types/node": "^22.10.10",
         "@types/ws": "^8.5.3",
-        "@typescript-eslint/eslint-plugin": "^7.1.1",
-        "@typescript-eslint/parser": "^7.1.1",
-        "eslint": "^8.22.0",
-        "eslint-config-prettier": "^9.1.0",
+        "eslint": "^9.19.0",
+        "eslint-config-prettier": "^10.0.1",
+        "globals": "^15.14.0",
         "import-sort-style-module": "^6.0.0",
         "prettier": "^3.2.5",
         "prettier-plugin-import-sort": "^0.0.7",
         "tsup": "^8.0.2",
-        "typescript": "^5.0.4"
+        "typescript": "^5.0.4",
+        "typescript-eslint": "^8.21.0"
     },
     "optionalDependencies": {
         "bufferutil": "^4.0.6",
