@@ -1,5 +1,5 @@
 .editorconfig
-.eslintrc.js
+eslint.config.mjs
 tsconfig.json
 build.mjs
 src
