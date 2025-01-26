@@ -9,13 +9,13 @@ The server implementation is available in [AuroraRPC-Server](https://github.com/
 ## Installation
 
 ```bash
-npm i aurora-rpc-client
+npm i @aurora-rpc/client
 ```
 
 ## Usage
 
 ```ts
-import { Client } from 'aurora-rpc-client';
+import { Client } from '@aurora-rpc/client';
 
 // --- Connect ---
 

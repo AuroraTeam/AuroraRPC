@@ -9,13 +9,13 @@ The client implementation is available in [AuroraRPC-Client](https://github.com/
 ## Installation
 
 ```bash
-npm i aurora-rpc-server
+npm i @aurora-rpc/server
 ```
 
 ## Usage
 
 ```ts
-import { Server } from 'aurora-rpc-server';
+import { Server } from '@aurora-rpc/server';
 
 const debug = false; // Set to true to enable debug output
 
@@ -26,7 +26,7 @@ const server = new Server({
 
 // --- Create a request handler ---
 
-import { AbstractRequest, ResponseResult } from 'aurora-rpc-server';
+import { AbstractRequest, ResponseResult } from '@aurora-rpc/server';
 
 class HelloRequest extends AbstractRequest {
     method = "hello"
